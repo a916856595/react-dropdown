@@ -1,0 +1,12 @@
+.react-dropdown-content {
+  position: fixed;
+  z-index: 9;
+  opacity: 0;
+  transition: top .3s, opacity .3s;
+  &.not-visible {
+    visibility: hidden;
+  }
+  &.not-opacity {
+    opacity: 1;
+  }
+}
